@@ -1,0 +1,30 @@
+# Arquivos compilados
+*.class
+
+# Arquivos de bytecode
+*.jar
+*.war
+*.ear
+
+# Arquivos de construção e logs
+target/
+build/
+logs/
+
+# Diretório de dependências (maven-specific)
+lib/
+
+# Arquivos de configuração (se não forem necessários no repositório)
+*.properties
+*.yml
+
+# Cache de IDEs
+.idea/
+.vscode/
+
+# Arquivos de configuração de projeto (eclipse-specific)
+.settings/
+
+# Arquivos temporários
+*.swp
+*~
