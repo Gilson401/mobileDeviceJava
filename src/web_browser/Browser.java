@@ -1,6 +1,8 @@
 package web_browser;
 
-public interface Browsers {
+import Device.Gadget;
+
+public interface Browser extends Gadget {
     
     public void exibirPagina(String url);
     public void adicionarNovaAba();

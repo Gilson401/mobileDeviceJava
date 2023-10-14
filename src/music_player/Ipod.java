@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import Device.Gadget;
-
-public class ReprodutorMusicial implements MusicPlayers, Gadget {
+public class Ipod implements MusicPlayer {
 
     List<String> musicasJovemGuarda = new ArrayList<>();
 
@@ -22,7 +20,7 @@ public class ReprodutorMusicial implements MusicPlayers, Gadget {
     String musicaSelecionada = null;
     Boolean estaTocandoMusica = false;
 
-    public ReprodutorMusicial() {
+    public Ipod() {
         this.loadMusicas();
     }
 

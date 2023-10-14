@@ -2,9 +2,7 @@ package phone;
 
 import java.util.Scanner;
 
-import Device.Gadget;
-
-public class IPhone implements Phones, Gadget {
+public class IPhone implements Phone {
 
     @Override
     public void atender() {

@@ -2,13 +2,13 @@ package Device;
 
 import java.util.Scanner;
 
-import music_player.ReprodutorMusicial;
+import music_player.Ipod;
 import phone.IPhone;
 import web_browser.Safari;
 
 public class Device {
     IPhone iPhone = new IPhone();
-    ReprodutorMusicial player = new ReprodutorMusicial();
+    Ipod player = new Ipod();
     Safari browser = new Safari();
 
     private Boolean isOn = false;

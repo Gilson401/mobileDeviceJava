@@ -1,10 +1,6 @@
 package web_browser;
-
 import java.util.Scanner;
-
-import Device.Gadget;
-
-public class Safari implements Browsers, Gadget {
+public class Safari implements Browser {
 
     Integer abas = 0;
 
